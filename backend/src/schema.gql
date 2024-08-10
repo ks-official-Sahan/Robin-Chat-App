@@ -21,7 +21,7 @@ type Query {
 }
 
 type Mutation {
-  addUser(userRegisterDTO: UserRegisterDTO!): UserResponse!
+  addUser(registerDTO: UserRegisterDTO!): UserResponse!
   updateUser(updateUserDTO: UserUpdateDTO!): UserResponse!
 }
 
